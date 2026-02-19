@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: "https://sweet-amazement-production.up.railway.app//api/users",
+  baseURL: "https://sweet-amazement-production.up.railway.app/api/users",
 });
 
 export const getUsers = (params) => API.get("/", { params });
